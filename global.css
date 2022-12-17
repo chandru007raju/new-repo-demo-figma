@@ -1,0 +1,13 @@
+:root {
+    /* fonts */
+    --font-poppins: Poppins;
+    --text: Inter;
+  
+    /* font sizes */
+    --text-size: 32px;
+    --font-size-base: 48px;
+  
+    /* Colors */
+    --color-white: #fff;
+  }
+  

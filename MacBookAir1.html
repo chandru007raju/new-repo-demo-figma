@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./MacBookAir1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="macbook-air-1">
+      <img class="lo-icon4" alt="" src="public/lo4.svg" /><img
+        class="polygon-icon4"
+        alt=""
+        src="public/polygon-14.svg"
+      />
+      <div class="home" id="hOMEText">HOME</div>
+      <div class="about1" id="aBOUTText">ABOUT</div>
+      <div class="services1" id="sERVICESText">SERVICES</div>
+      <div class="portfolio1" id="pORTFOLIOText">PORTFOLIO</div>
+      <img class="rectangle-icon" alt="" src="public/rectangle-1@2x.png" /><img
+        class="rectangle-icon"
+        alt=""
+        src="public/rectangle-1@2x.png"
+      /><img
+        class="rectangle-icon2"
+        alt=""
+        src="public/rectangle-3@2x.png"
+      /><img
+        class="rectangle-icon3"
+        alt=""
+        src="public/rectangle-4@2x.png"
+      /><img
+        class="rectangle-icon4"
+        alt=""
+        src="public/rectangle-5@2x.png"
+      /><img class="rectangle-icon5" alt="" src="public/rectangle-6@2x.png" />
+      <div class="specific-ocean">
+        <b class="specific-ocean1">SPECIFIC OCEAN</b
+        ><b class="specific-ocean2">SPECIFIC OCEAN</b
+        ><b class="specific-ocean3">SPECIFIC OCEAN</b>
+      </div>
+      <div class="specific-ocean-2">
+        <div class="specific-ocean4">
+          <b class="specific-ocean5">SPECIFIC OCEAN</b
+          ><b class="specific-ocean6">SPECIFIC OCEAN</b
+          ><b class="specific-ocean7">SPECIFIC OCEAN</b>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var hOMEText = document.getElementById("hOMEText");
+      if (hOMEText) {
+        hOMEText.addEventListener("click", function (e) {
+          window.location.href = "./HOMEPAGE.html";
+        });
+      }
+      
+      var aBOUTText = document.getElementById("aBOUTText");
+      if (aBOUTText) {
+        aBOUTText.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var sERVICESText = document.getElementById("sERVICESText");
+      if (sERVICESText) {
+        sERVICESText.addEventListener("click", function (e) {
+          window.location.href = "./PORTFOLIO.html";
+        });
+      }
+      
+      var pORTFOLIOText = document.getElementById("pORTFOLIOText");
+      if (pORTFOLIOText) {
+        pORTFOLIOText.addEventListener("click", function (e) {
+          window.location.href = "./PORTFOLIO.html";
+        });
+      }
+      </script>
+  </body>
+</html>

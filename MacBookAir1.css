@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  .lo-icon4,
+  .polygon-icon4 {
+    position: absolute;
+    top: 82px;
+    left: 108px;
+    width: 165px;
+    height: 112px;
+  }
+  .polygon-icon4 {
+    top: 79.17px;
+    left: 138.01px;
+    width: 102.96px;
+    height: 88.38px;
+  }
+  .about1,
+  .home,
+  .portfolio1,
+  .services1 {
+    position: absolute;
+    top: 114px;
+    left: 453px;
+    font-weight: 600;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .about1,
+  .portfolio1,
+  .services1 {
+    left: 601px;
+  }
+  .portfolio1,
+  .services1 {
+    left: 765px;
+  }
+  .portfolio1 {
+    left: 972px;
+  }
+  .rectangle-icon,
+  .rectangle-icon2 {
+    position: absolute;
+    top: 341px;
+    left: 571px;
+    width: 584px;
+    height: 425px;
+    object-fit: cover;
+  }
+  .rectangle-icon2 {
+    top: 1033px;
+    left: 124px;
+    width: 480px;
+    height: 366px;
+  }
+  .rectangle-icon3,
+  .rectangle-icon4,
+  .rectangle-icon5 {
+    position: absolute;
+    top: 1590px;
+    left: 765px;
+    width: 349px;
+    height: 276px;
+    object-fit: cover;
+  }
+  .rectangle-icon4,
+  .rectangle-icon5 {
+    top: 1697px;
+    left: 145px;
+    width: 208px;
+    height: 169px;
+  }
+  .rectangle-icon5 {
+    top: 1642px;
+    left: 409px;
+    width: 306px;
+    height: 224px;
+  }
+  .specific-ocean1,
+  .specific-ocean2,
+  .specific-ocean3 {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    display: inline-block;
+  }
+  .specific-ocean2,
+  .specific-ocean3 {
+    top: 53px;
+    left: 0;
+  }
+  .specific-ocean3 {
+    top: 111px;
+    left: 1px;
+  }
+  .specific-ocean {
+    position: absolute;
+    top: 434px;
+    left: 146px;
+    width: 397px;
+    height: 183px;
+    font-size: var(--font-size-base);
+    font-family: var(--font-poppins);
+  }
+  .specific-ocean5,
+  .specific-ocean6,
+  .specific-ocean7 {
+    position: absolute;
+    top: 171px;
+    left: 0;
+    display: inline-block;
+  }
+  .specific-ocean6,
+  .specific-ocean7 {
+    top: 91px;
+    left: 1px;
+  }
+  .specific-ocean7 {
+    top: 0;
+    left: 0;
+  }
+  .specific-ocean-2,
+  .specific-ocean4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 397px;
+    height: 243px;
+  }
+  .specific-ocean-2 {
+    top: 1120px;
+    left: 758px;
+    font-size: var(--font-size-base);
+    font-family: var(--font-poppins);
+  }
+  .macbook-air-1 {
+    position: relative;
+    background: linear-gradient(112.96deg, #780dff, rgba(12, 11, 13, 0));
+    width: 100%;
+    height: 2143px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--text-size);
+    color: var(--color-white);
+    font-family: var(--text);
+  }
+  

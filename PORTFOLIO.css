@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  .lo-icon1,
+  .polygon-icon1 {
+    position: absolute;
+    top: 163px;
+    left: 247px;
+    width: 746px;
+    height: 761px;
+  }
+  .polygon-icon1 {
+    top: 1578.01px;
+    left: 364.01px;
+    width: 566.43px;
+    height: 446.37px;
+    cursor: pointer;
+  }
+  .portfolio {
+    position: relative;
+    background: linear-gradient(112.96deg, #780dff, rgba(12, 11, 13, 0));
+    width: 100%;
+    height: 2143px;
+    overflow: hidden;
+  }
+  
